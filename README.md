@@ -1,2 +1,0 @@
-# xGoodaAx.github.io
- lol
