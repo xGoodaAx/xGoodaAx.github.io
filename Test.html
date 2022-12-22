@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Контакты сотрудников компании</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Контакты сотрудников компании</h1>
+        <div class="input-group mb-3">
+            <!-- HideSeek Input -->
+            <input id="search" class="form-control" name="search" placeholder="Найти сотрудника..." type="text" data-list=".list">
+        </div>    
+        <div class="row list">
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Иванов Иван Иванович</h2>
+                        <p class="card-text">Тел. +7 (000) 000-00-00<br/>
+                        E-mail: mail@mail.ru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Петров Петр Петрович</h2>
+                        <p class="card-text">Тел. +7 (000) 000-00-00<br/>
+                        E-mail: mail@mail.ru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Сидоров Сидор Сидорович</h2>
+                        <p class="card-text">Тел. +7 (000) 000-00-00<br/>
+                        E-mail: mail@mail.ru
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery HideSeek -->
+    <script type="text/javascript" src="jquery.hideseek.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#search').hideseek({highlight: true});
+        });
+    </script>
+</body>
+</html>
